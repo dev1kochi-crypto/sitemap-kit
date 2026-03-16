@@ -22,7 +22,7 @@ A reusable Laravel package for automatic sitemap generation. This package utiliz
 Since this is a custom package, you can install it using composer. If it's published on Packagist:
 
 ```bash
-composer require dev1kochi-crypto/sitemap-kit
+composer require dev1kochi-crypto/sitemap-kit:dev-main
 ```
 
 ### 2. Publish Configuration
