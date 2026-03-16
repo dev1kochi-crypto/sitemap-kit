@@ -139,7 +139,7 @@
     <form action="{{ route('sitemap.update') }}" method="POST">
         @csrf
         <div class="editor-wrapper">
-            <textarea name="content" class="xml-editor" spellcheck="false">{{ old('content', $content) }}</textarea>
+            <textarea name="content" class="xml-editor" spellcheck="false" required>{{ old('content', $content) }}</textarea>
         </div>
 
         <div class="actions">
