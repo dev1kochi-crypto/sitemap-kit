@@ -1,10 +1,10 @@
 <?php
 
-namespace Dev1kochiCrypto\SitemapKit\Http\Controllers;
+namespace MightyWarnersKochi\SitemapKit\Http\Controllers;
 
 use Illuminate\Routing\Controller;
-use Dev1kochiCrypto\SitemapKit\Services\SitemapService;
-use Dev1kochiCrypto\SitemapKit\Jobs\UpdateSitemapJob;
+use MightyWarnersKochi\SitemapKit\Services\SitemapService;
+use MightyWarnersKochi\SitemapKit\Jobs\UpdateSitemapJob;
 use Illuminate\Http\Request;
 
 class SitemapController extends Controller

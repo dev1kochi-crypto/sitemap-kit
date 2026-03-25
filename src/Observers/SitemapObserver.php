@@ -1,8 +1,8 @@
 <?php
 
-namespace Dev1kochiCrypto\SitemapKit\Observers;
+namespace MightyWarnersKochi\SitemapKit\Observers;
 
-use Dev1kochiCrypto\SitemapKit\Jobs\UpdateSitemapJob;
+use MightyWarnersKochi\SitemapKit\Jobs\UpdateSitemapJob;
 
 class SitemapObserver
 {

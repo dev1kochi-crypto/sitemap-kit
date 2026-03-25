@@ -19,10 +19,21 @@ A reusable Laravel package for automatic sitemap generation. This package utiliz
 
 ### 1. Install via Composer
 
-Since this is a custom package, you can install it using composer. If it's published on Packagist:
+Since this is a custom package, add the VCS repository entry to your project's `composer.json`:
+
+```json
+"repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/mightywarnerskochi/sitemap-kit"
+    }
+]
+```
+
+Then install it with Composer:
 
 ```bash
-composer require dev1kochi-crypto/sitemap-kit:dev-main
+composer require mightywarnerskochi/sitemap-kit:dev-main
 ```
 
 ### 2. Publish Configuration
@@ -60,7 +71,7 @@ You can configure the management page to blend into your admin panel in `config/
 The service provider is automatically registered via Laravel's package discovery. If you need to add it manually, add this to your `config/app.php` providers array:
 
 ```php
-Dev1kochiCrypto\SitemapKit\SitemapAutomationServiceProvider::class,
+MightyWarnersKochi\SitemapKit\SitemapAutomationServiceProvider::class,
 ```
 
 ## Usage
@@ -105,4 +116,4 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 
 ## Authors
 
-- **dev1kochi-crypto** - [dev1kochi-crypto@example.com]
+- **mightywarnerskochi** - [support@mightywarnerskochi.com]

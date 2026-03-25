@@ -1,10 +1,10 @@
 <?php
 
-namespace Dev1kochiCrypto\SitemapKit;
+namespace MightyWarnersKochi\SitemapKit;
 
 use Illuminate\Support\ServiceProvider;
-use Dev1kochiCrypto\SitemapKit\Observers\SitemapObserver;
-use Dev1kochiCrypto\SitemapKit\Console\Commands\SitemapGenerateCommand;
+use MightyWarnersKochi\SitemapKit\Observers\SitemapObserver;
+use MightyWarnersKochi\SitemapKit\Console\Commands\SitemapGenerateCommand;
 
 class SitemapAutomationServiceProvider extends ServiceProvider
 {

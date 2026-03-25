@@ -1,6 +1,6 @@
 <?php
 
-namespace Dev1kochiCrypto\SitemapKit\Services;
+namespace MightyWarnersKochi\SitemapKit\Services;
 
 use Spatie\Sitemap\SitemapGenerator;
 

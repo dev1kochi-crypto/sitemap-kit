@@ -1,9 +1,9 @@
 <?php
 
-namespace Dev1kochiCrypto\SitemapKit\Console\Commands;
+namespace MightyWarnersKochi\SitemapKit\Console\Commands;
 
 use Illuminate\Console\Command;
-use Dev1kochiCrypto\SitemapKit\Services\SitemapService;
+use MightyWarnersKochi\SitemapKit\Services\SitemapService;
 
 class SitemapGenerateCommand extends Command
 {
