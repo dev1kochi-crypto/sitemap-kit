@@ -14,7 +14,7 @@ class CreateMissingUrlLogsTable extends Migration
     public function up()
     {
         Schema::create('missing_url_logs', function (Blueprint $table) {
-            $table->id();
+            $table->bigIncrements('id');
             // Same pattern as url_redirects: avoid MySQL utf8mb4 unique on long VARCHAR.
             $table->string('url_hash', 64)->unique();
             $table->text('url');

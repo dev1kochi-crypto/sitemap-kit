@@ -20,7 +20,7 @@ class CreateUrlRedirectsTable extends Migration
     public function up()
     {
         Schema::create('url_redirects', function (Blueprint $table) {
-            $table->id();
+            $table->bigIncrements('id');
             $table->text('old_url');
             $table->char('old_url_hash', 64)->unique();
             $table->text('new_url')->nullable();
